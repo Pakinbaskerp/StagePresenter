@@ -11,7 +11,7 @@ from ppt_loader import PPTLoader
 class ControlWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("PPT Presenter")
+        self.setWindowTitle("Projex")
         self.setGeometry(200, 200, 1400, 800)
 
         print("Initializing ControlWindow...")
